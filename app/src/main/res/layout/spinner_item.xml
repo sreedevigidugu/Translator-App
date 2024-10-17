@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="4dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    android:padding="4dp"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="24sp"
+    android:textIsSelectable="true"
+    android:longClickable="true"
+    android:contextClickable="true"
+    android:onClick="showContextMenu"
+    tools:ignore="MissingConstraints" />
